@@ -1,0 +1,139 @@
+
+@media  (max-width: 767px){
+    /* .header{
+        position: relative;    
+    } */
+    .header .logo img{
+        margin-left: -50px;
+        width: 90px;
+    }
+    .header .nav-bar {
+        display: none;
+        
+    }
+    .header .toggle-menu:hover + .nav-bar{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 3%;
+        width: 94%;
+        height: 35vh;
+        background-color: white;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;        
+    }
+    .header .nav-bar li:not(:last-child){
+        border-bottom: 1px solid #ccc;
+        width: 70%;
+    }
+    .header .nav-bar li a {
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;        
+        padding: 20px !important;
+        
+    }
+    .nav-bar li a:hover,
+    .nav-bar li a.active{
+        color: #ee626b;
+        background-color: transparent;
+    }
+    .nav-bar .sign,
+    .nav-bar .sign:hover{
+        color: #ee626b;
+        background-color: transparent;
+    }
+    .landing .container{
+        flex-direction: column;
+    }
+    .landing .info{
+        text-align: center;
+        margin-top: -80px;
+    }
+    .landing .info h4{
+        font-size:17px;
+    }
+    .landing .info h1{
+        font-size: 30px;
+    }
+    .landing .info h1::after{
+        left: 100px;
+        bottom: -5px;
+        width: 170px;
+    }
+    .landing .info p{
+        font-size: 10px;
+        overflow: hidden;
+    }
+    .landing input{
+        width: 70%;        
+        margin-bottom: 30px;
+    }
+    .landing button{
+        right: 50px;
+    }
+    .features{
+        flex-direction: column;        
+    }
+    .features .card{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .store .info{
+        text-align: center;
+    }
+    .store .btn{
+        display: none;
+    }
+    .store .card{
+        flex-direction: column;           
+    }
+    .store .items{
+        width: 100%;
+        margin: auto;
+    }
+    .store img{
+        width: 100%;
+    }
+    .top-game .info{
+        text-align: center;
+    }
+    .top-game .btn{
+        display: none;
+    }
+    .top-game .boxes{
+        flex-direction: column;
+    }
+    .boxes .box{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .top-game .text a{
+        left: 38%;
+    }
+    .categ .cards{
+        flex-direction: column;
+    }
+    .categ .box{
+        
+        width: 100%;
+    }
+    .cta .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .cta .cta1{
+        padding: 40px;
+    }
+    .cta .cta2{
+        padding: 40px;
+        margin: 20px 0;
+    }    
+    
+    .cta::after{
+        display: none;
+    }
+}
